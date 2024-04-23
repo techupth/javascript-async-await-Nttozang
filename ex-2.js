@@ -13,3 +13,7 @@ let getJohnProfile = () => {
 };
 
 // Start coding here
+
+const checkData = (data) => console.log(data);
+
+getJohnProfile().catch(checkData);

@@ -12,3 +12,15 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+
+
+async function exerciseTwo() {
+ try{
+  const newextwo = await getJohnProfile();
+ return console.log(newextwo);
+} catch (error){
+  console.log(error)
+}
+}
+
+exerciseTwo();

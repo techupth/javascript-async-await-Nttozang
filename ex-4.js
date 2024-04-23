@@ -13,3 +13,12 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+
+async function exerciseOne() {
+ 
+  const newexone = await getJohnProfile();
+ return console.log(newexone);
+
+}
+
+exerciseOne();
